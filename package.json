@@ -1,0 +1,16 @@
+{
+  "name": "clicolors",
+  "version": "1.0.0",
+  "description": "Simplifies coloring terminal text",
+  "main": "cliColors.ts",
+  "scripts": {
+    "run": "tsc cliColors.ts && node cliColors.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Koch",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.5.0",
+    "typescript": "^3.7.5"
+  }
+}
